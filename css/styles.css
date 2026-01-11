@@ -1,0 +1,913 @@
+STRUCTURE/
+├─ index.html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Structura — Votre administratif, sous contrôle</title>
+  <meta name="description" content="Structura — Assistance administrative externalisée. Sans engagement. Simple, humaine et sécurisée." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Structura - Accueil">
+        <img class="logo" src="assets/logo.png" alt="Logo Structura" />
+        <div class="brand-text">
+          <span class="brand-name">Structura</span>
+          <span class="brand-tagline">Assistance administrative externalisée</span>
+        </div>
+      </a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu-link is-active" href="index.html">Accueil</a>
+        <a class="menu-link" href="offres.html">Offres</a>
+        <a class="menu-link" href="process.html">Méthode</a>
+        <a class="menu-link" href="securite.html">Sécurité</a>
+        <a class="menu-link" href="contact.html">Contact</a>
+        <a class="menu-cta" href="contact.html#diagnostic">Diagnostic gratuit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Sans engagement · À distance · Humain & sécurisé</p>
+          <h1>Votre administratif, sous contrôle.<br /><span class="accent">Vous, en mouvement.</span></h1>
+          <p class="lead">
+            Devis, factures, relances, dossiers, organisation… On reprend la main sur l’administratif
+            pour que vous puissiez vous concentrer sur votre activité (et retrouver des soirées civilisées).
+          </p>
+
+          <div class="actions">
+            <a class="btn primary" href="contact.html#diagnostic">Réserver un diagnostic (15 min)</a>
+            <a class="btn ghost" href="offres.html">Voir les offres</a>
+          </div>
+
+          <div class="badges">
+            <span class="badge">Réactivité</span>
+            <span class="badge">Méthode claire</span>
+            <span class="badge">Priorités gérées</span>
+          </div>
+        </div>
+
+        <aside class="card">
+          <div class="pill">Structura</div>
+          <h2>Ce qu’on gère pour vous</h2>
+          <ul class="checklist">
+            <li>Devis & facturation</li>
+            <li>Classement & organisation</li>
+            <li>Relances & suivi clients</li>
+            <li>Dossiers (URSSAF, impôts, organismes…)</li>
+            <li><strong>Urgence Admin</strong> : intervention rapide</li>
+          </ul>
+          <a class="link" href="process.html">Découvrir notre méthode →</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Une assistance administrative qui fait gagner du temps (et du calme)</h2>
+        <p class="muted">Vous gardez la main. Nous, on fait avancer les dossiers. Proprement.</p>
+
+        <div class="grid-3">
+          <article class="tile">
+            <h3>Simple</h3>
+            <p>Un point rapide, une liste claire, et on exécute. Pas de blabla, pas de paperasse en plus.</p>
+          </article>
+          <article class="tile">
+            <h3>Sécurisé</h3>
+            <p>Accès cadrés, bonnes pratiques, traçabilité. On traite vos données comme si c’était les nôtres.</p>
+          </article>
+          <article class="tile">
+            <h3>Rentable</h3>
+            <p>Moins cher qu’un salarié, plus rapide que “je verrai plus tard”. Et surtout : ça avance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container grid-2">
+        <div class="tile">
+          <h3>Pour qui ?</h3>
+          <p>Indépendants, TPE, artisans, professions libérales… et particuliers qui veulent respirer.</p>
+        </div>
+        <div class="tile">
+          <h3>Comment on démarre ?</h3>
+          <p>Un diagnostic gratuit de 15 minutes → une proposition claire → démarrage simple.</p>
+          <a class="btn primary" href="contact.html#diagnostic">Je prends mon diagnostic</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Structura</div>
+        <div class="muted">Assistance administrative externalisée</div>
+      </div>
+      <div class="footer-links">
+        <a href="offres.html">Offres</a>
+        <a href="process.html">Méthode</a>
+        <a href="securite.html">Sécurité</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="muted small">© <span id="year"></span> Structura — Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+├─ offres.html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Structura — Offres</title>
+  <meta name="description" content="Offres Structura — assistance administrative externalisée pour particuliers, indépendants et entreprises." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Structura - Accueil">
+        <img class="logo" src="assets/logo.png" alt="Logo Structura" />
+        <div class="brand-text">
+          <span class="brand-name">Structura</span>
+          <span class="brand-tagline">Assistance administrative externalisée</span>
+        </div>
+      </a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu-link" href="index.html">Accueil</a>
+        <a class="menu-link is-active" href="offres.html">Offres</a>
+        <a class="menu-link" href="process.html">Méthode</a>
+        <a class="menu-link" href="securite.html">Sécurité</a>
+        <a class="menu-link" href="contact.html">Contact</a>
+        <a class="menu-cta" href="contact.html#diagnostic">Diagnostic gratuit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="page">
+    <section class="section">
+      <div class="container">
+        <h1>Offres Structura</h1>
+        <p class="lead">Choisissez la formule qui correspond à votre rythme. Sans engagement.</p>
+
+        <div class="grid-3">
+          <article class="price">
+            <h2>Essentiel</h2>
+            <p class="muted">Pour garder un administratif sain.</p>
+            <div class="price-tag">249 € HT / mois</div>
+            <ul class="list">
+              <li>Devis / factures (base)</li>
+              <li>Classement & organisation</li>
+              <li>Relances simples</li>
+              <li>1 point hebdo (15 min)</li>
+            </ul>
+            <a class="btn primary" href="contact.html#diagnostic">Je démarre</a>
+          </article>
+
+          <article class="price featured">
+            <div class="pill">Le plus choisi</div>
+            <h2>Pro</h2>
+            <p class="muted">Pour être vraiment tranquille.</p>
+            <div class="price-tag">399 € HT / mois</div>
+            <ul class="list">
+              <li>Devis / factures / suivi</li>
+              <li>Relances + reporting</li>
+              <li>Dossiers (URSSAF, impôts…)</li>
+              <li>2 points hebdo</li>
+            </ul>
+            <a class="btn primary" href="contact.html#diagnostic">Je prends Pro</a>
+          </article>
+
+          <article class="price">
+            <h2>Urgence Admin</h2>
+            <p class="muted">Quand ça brûle, on arrive.</p>
+            <div class="price-tag">À partir de 89 € / intervention</div>
+            <ul class="list">
+              <li>Tri & priorisation</li>
+              <li>Relances rapides</li>
+              <li>Préparation pièces / dossiers</li>
+              <li>Plan d’action 48h</li>
+            </ul>
+            <a class="btn ghost" href="contact.html#diagnostic">Débloquer une urgence</a>
+          </article>
+        </div>
+
+        <div class="note">
+          <strong>À noter :</strong> les tarifs sont indicatifs — on adapte selon volume, outils et objectifs.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Structura</div>
+        <div class="muted">Assistance administrative externalisée</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="process.html">Méthode</a>
+        <a href="securite.html">Sécurité</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="muted small">© <span id="year"></span> Structura — Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+├─ process.html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Structura — Méthode</title>
+  <meta name="description" content="Méthode Structura — un processus clair pour reprendre le contrôle de l'administratif." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Structura - Accueil">
+        <img class="logo" src="assets/logo.png" alt="Logo Structura" />
+        <div class="brand-text">
+          <span class="brand-name">Structura</span>
+          <span class="brand-tagline">Assistance administrative externalisée</span>
+        </div>
+      </a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu-link" href="index.html">Accueil</a>
+        <a class="menu-link" href="offres.html">Offres</a>
+        <a class="menu-link is-active" href="process.html">Méthode</a>
+        <a class="menu-link" href="securite.html">Sécurité</a>
+        <a class="menu-link" href="contact.html">Contact</a>
+        <a class="menu-cta" href="contact.html#diagnostic">Diagnostic gratuit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="page">
+    <section class="section">
+      <div class="container">
+        <h1>Notre méthode</h1>
+        <p class="lead">Une méthode simple : on clarifie, on exécute, on suit.</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-n">1</div>
+            <div>
+              <h2>Diagnostic (15 min)</h2>
+              <p>On identifie l’urgence, le volume, vos outils, et vos priorités.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-n">2</div>
+            <div>
+              <h2>Mise en place</h2>
+              <p>Accès cadrés, arborescence, modèle de documents, routine hebdo.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-n">3</div>
+            <div>
+              <h2>Exécution</h2>
+              <p>Devis, factures, relances, dossiers… on fait avancer les points bloquants.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-n">4</div>
+            <div>
+              <h2>Suivi & pilotage</h2>
+              <p>Mini reporting, points réguliers, amélioration continue.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="contact.html#diagnostic">Réserver mon diagnostic</a>
+          <a class="btn ghost" href="offres.html">Voir les offres</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Structura</div>
+        <div class="muted">Assistance administrative externalisée</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="offres.html">Offres</a>
+        <a href="securite.html">Sécurité</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="muted small">© <span id="year"></span> Structura — Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+├─ securite.html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Structura — Sécurité</title>
+  <meta name="description" content="Sécurité & confidentialité — bonnes pratiques Structura." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Structura - Accueil">
+        <img class="logo" src="assets/logo.png" alt="Logo Structura" />
+        <div class="brand-text">
+          <span class="brand-name">Structura</span>
+          <span class="brand-tagline">Assistance administrative externalisée</span>
+        </div>
+      </a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu-link" href="index.html">Accueil</a>
+        <a class="menu-link" href="offres.html">Offres</a>
+        <a class="menu-link" href="process.html">Méthode</a>
+        <a class="menu-link is-active" href="securite.html">Sécurité</a>
+        <a class="menu-link" href="contact.html">Contact</a>
+        <a class="menu-cta" href="contact.html#diagnostic">Diagnostic gratuit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="page">
+    <section class="section">
+      <div class="container">
+        <h1>Sécurité & confidentialité</h1>
+        <p class="lead">On applique des règles simples, strictes, et traçables.</p>
+
+        <div class="grid-2">
+          <article class="tile">
+            <h2>Accès minimaux</h2>
+            <p>On utilise le principe du “juste nécessaire” : accès limités, contrôlés, révocables.</p>
+          </article>
+          <article class="tile">
+            <h2>Traçabilité</h2>
+            <p>Organisation claire, historique des actions, et restitution simple en cas de besoin.</p>
+          </article>
+          <article class="tile">
+            <h2>Bonnes pratiques</h2>
+            <p>Mots de passe solides, double authentification, séparation pro/perso, sauvegardes.</p>
+          </article>
+          <article class="tile">
+            <h2>Confidentialité</h2>
+            <p>Clause de confidentialité + posture : vos informations ne sortent pas du cadre convenu.</p>
+          </article>
+        </div>
+
+        <div class="note">
+          Besoin d’un cadre “béton” (client distant, accès PC, etc.) ? On le formalise dans votre procédure + contrat.
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="contact.html#diagnostic">En parler (diagnostic gratuit)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Structura</div>
+        <div class="muted">Assistance administrative externalisée</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="offres.html">Offres</a>
+        <a href="process.html">Méthode</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="muted small">© <span id="year"></span> Structura — Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+├─ contact.html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Structura — Contact</title>
+  <meta name="description" content="Contact Structura — réservez un diagnostic gratuit." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Structura - Accueil">
+        <img class="logo" src="assets/logo.png" alt="Logo Structura" />
+        <div class="brand-text">
+          <span class="brand-name">Structura</span>
+          <span class="brand-tagline">Assistance administrative externalisée</span>
+        </div>
+      </a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" data-menu>
+        <a class="menu-link" href="index.html">Accueil</a>
+        <a class="menu-link" href="offres.html">Offres</a>
+        <a class="menu-link" href="process.html">Méthode</a>
+        <a class="menu-link" href="securite.html">Sécurité</a>
+        <a class="menu-link is-active" href="contact.html">Contact</a>
+        <a class="menu-cta" href="#diagnostic">Diagnostic gratuit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="page">
+    <section class="section">
+      <div class="container">
+        <h1>Contact</h1>
+        <p class="lead">Dites-nous ce qui vous bloque. On vous répond rapidement.</p>
+
+        <div class="grid-2">
+          <article class="tile">
+            <h2>Coordonnées</h2>
+            <p class="muted">Remplace ces infos quand tu veux.</p>
+            <ul class="list">
+              <li><strong>Email :</strong> contact@structura.fr</li>
+              <li><strong>Téléphone :</strong> 06 00 00 00 00</li>
+              <li><strong>Zone :</strong> France (à distance)</li>
+            </ul>
+          </article>
+
+          <article class="tile" id="diagnostic">
+            <h2>Diagnostic gratuit (15 min)</h2>
+            <p>Pour le moment, le formulaire est “local” (pas d’envoi automatique). On l’activera plus tard.</p>
+
+            <form class="form" onsubmit="return false;">
+              <label>
+                Nom / entreprise
+                <input type="text" placeholder="Ex : Dupont — Atelier Dupont" />
+              </label>
+
+              <label>
+                Email
+                <input type="email" placeholder="exemple@mail.com" />
+              </label>
+
+              <label>
+                Votre besoin (en 2 lignes)
+                <textarea rows="4" placeholder="Ce que vous voulez déléguer + urgence + volume…"></textarea>
+              </label>
+
+              <button class="btn primary" type="button" onclick="alert('Formulaire en mode développement : on active l’envoi plus tard 🙂');">
+                Envoyer
+              </button>
+            </form>
+
+            <p class="muted small">Astuce : tu pourras brancher Brevo/Mailchimp plus tard sans changer le design.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Structura</div>
+        <div class="muted">Assistance administrative externalisée</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="offres.html">Offres</a>
+        <a href="process.html">Méthode</a>
+        <a href="securite.html">Sécurité</a>
+      </div>
+      <div class="muted small">© <span id="year"></span> Structura — Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+├─ css/
+│  └─ styles.css
+:root{
+  --bg:#071018;
+  --panel: rgba(255,255,255,.06);
+  --panel2: rgba(255,255,255,.08);
+  --text:#e9eef4;
+  --muted: rgba(233,238,244,.72);
+  --border: rgba(255,255,255,.12);
+  --accent:#33d1c6;
+  --accent2:#1ea8ff;
+  --shadow: 0 18px 60px rgba(0,0,0,.35);
+  --radius: 18px;
+  --container: 1100px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  color:var(--text);
+  background:
+    radial-gradient(900px 600px at 10% 10%, rgba(51,209,198,.18), transparent 60%),
+    radial-gradient(900px 600px at 90% 15%, rgba(30,168,255,.14), transparent 60%),
+    linear-gradient(180deg, #070f16 0%, #04080d 100%);
+}
+
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+.container{max-width:var(--container); margin:0 auto; padding:0 18px}
+
+.skip-link{
+  position:absolute; left:-999px; top:10px;
+  background:#fff; color:#000; padding:10px 12px; border-radius:10px;
+}
+.skip-link:focus{left:12px; z-index:50}
+
+.header{
+  position:sticky; top:0; z-index:40;
+  backdrop-filter: blur(10px);
+  background: rgba(6,10,14,.55);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 0;
+  gap:12px;
+}
+
+.brand{display:flex; align-items:center; gap:12px; min-width: 220px}
+.logo{
+  width:44px; height:44px; border-radius:12px;
+  background: rgba(255,255,255,.05);
+  border:1px solid var(--border);
+  padding:6px;
+}
+.brand-text{display:flex; flex-direction:column; line-height:1.1}
+.brand-name{font-weight:800; letter-spacing:.2px}
+.brand-tagline{font-size:12px; color:var(--muted)}
+
+.menu{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+.menu-link{
+  font-size:14px;
+  padding:10px 12px;
+  border-radius:999px;
+  color: var(--muted);
+  border: 1px solid transparent;
+}
+.menu-link:hover{color:var(--text); border-color: var(--border); background: rgba(255,255,255,.04)}
+.menu-link.is-active{color:var(--text); border-color: rgba(51,209,198,.35); background: rgba(51,209,198,.08)}
+
+.menu-cta{
+  font-size:14px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(51,209,198,.45);
+  background: linear-gradient(180deg, rgba(51,209,198,.18), rgba(51,209,198,.08));
+  box-shadow: 0 10px 30px rgba(51,209,198,.10);
+  white-space:nowrap;
+}
+.menu-cta:hover{border-color: rgba(51,209,198,.75)}
+
+.burger{
+  display:none;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.04);
+  border-radius:12px;
+  padding:10px;
+  cursor:pointer;
+}
+.burger span{
+  display:block;
+  width:22px; height:2px;
+  background: var(--text);
+  margin:5px 0;
+  border-radius:2px;
+}
+
+.hero{padding:54px 0 18px}
+.hero-grid{
+  display:grid; grid-template-columns: 1.2fr .9fr;
+  gap:18px;
+  align-items:start;
+}
+.kicker{
+  display:inline-block;
+  font-size:12px;
+  color:var(--muted);
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.04);
+  padding:8px 12px;
+  border-radius:999px;
+}
+
+h1{margin:14px 0 10px; font-size:44px; line-height:1.06}
+.accent{
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.lead{color:var(--muted); font-size:16px; max-width: 60ch}
+
+.actions{display:flex; gap:10px; align-items:center; margin:18px 0 10px; flex-wrap:wrap}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.04);
+  color:var(--text);
+  font-weight:700;
+}
+.btn.primary{
+  border-color: rgba(51,209,198,.55);
+  background: linear-gradient(180deg, rgba(51,209,198,.22), rgba(51,209,198,.10));
+}
+.btn.ghost:hover, .btn.primary:hover{transform: translateY(-1px)}
+.btn:active{transform: translateY(0px)}
+
+.badges{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
+.badge{
+  font-size:12px;
+  color:var(--muted);
+  border:1px solid var(--border);
+  padding:7px 10px;
+  border-radius:999px;
+  background: rgba(255,255,255,.03);
+}
+
+.card{
+  border-radius: var(--radius);
+  border:1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+  box-shadow: var(--shadow);
+  padding:18px;
+}
+.pill{
+  display:inline-block;
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(51,209,198,.45);
+  background: rgba(51,209,198,.08);
+  color: var(--text);
+  margin-bottom:8px;
+}
+.card h2{margin:10px 0 10px; font-size:18px}
+.checklist{list-style:none; padding:0; margin:0 0 12px}
+.checklist li{
+  padding-left:26px;
+  margin:10px 0;
+  position:relative;
+  color: var(--muted);
+}
+.checklist li strong{color:var(--text)}
+.checklist li::before{
+  content:"✓";
+  position:absolute;
+  left:0; top:-1px;
+  width:18px; height:18px;
+  border-radius:6px;
+  display:flex; align-items:center; justify-content:center;
+  background: rgba(51,209,198,.18);
+  border:1px solid rgba(51,209,198,.40);
+  color: var(--text);
+  font-weight:900;
+}
+.link{color:var(--text); text-decoration:underline; text-decoration-color: rgba(51,209,198,.4)}
+.link:hover{text-decoration-color: rgba(51,209,198,.9)}
+
+.section{padding:34px 0}
+.section.alt{
+  background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00));
+  border-top: 1px solid rgba(255,255,255,.06);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+h2{margin:0 0 10px; font-size:26px}
+.muted{color:var(--muted)}
+.small{font-size:12px}
+
+.grid-3{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; margin-top:14px}
+.grid-2{display:grid; grid-template-columns: repeat(2, 1fr); gap:14px}
+
+.tile{
+  border-radius: var(--radius);
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  padding:16px;
+}
+.tile h3{margin:0 0 8px}
+.tile p{margin:0; color:var(--muted)}
+
+.page .section:first-child{padding-top:40px}
+
+.price{
+  border-radius: var(--radius);
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  padding:16px;
+}
+.price h2{margin:0}
+.price-tag{
+  margin:12px 0;
+  font-size:18px;
+  font-weight:900;
+}
+.price.featured{
+  background: linear-gradient(180deg, rgba(51,209,198,.14), rgba(255,255,255,.03));
+  border-color: rgba(51,209,198,.35);
+  box-shadow: 0 22px 70px rgba(51,209,198,.10);
+}
+.list{margin:0; padding-left:18px; color:var(--muted)}
+.list li{margin:8px 0}
+
+.note{
+  margin-top:16px;
+  padding:14px;
+  border-radius: var(--radius);
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.03);
+  color: var(--muted);
+}
+
+.steps{display:grid; gap:12px; margin-top:16px}
+.step{
+  display:grid;
+  grid-template-columns: 42px 1fr;
+  gap:12px;
+  align-items:flex-start;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  padding:14px;
+  border-radius: var(--radius);
+}
+.step-n{
+  width:42px; height:42px;
+  border-radius:14px;
+  display:flex; align-items:center; justify-content:center;
+  font-weight:900;
+  border:1px solid rgba(51,209,198,.4);
+  background: rgba(51,209,198,.10);
+}
+
+.form{display:grid; gap:10px}
+label{display:grid; gap:6px; color:var(--muted); font-size:14px}
+input, textarea{
+  width:100%;
+  padding:12px 12px;
+  border-radius: 14px;
+  border:1px solid var(--border);
+  background: rgba(0,0,0,.20);
+  color: var(--text);
+  outline:none;
+}
+input:focus, textarea:focus{border-color: rgba(51,209,198,.55)}
+
+.footer{
+  padding:22px 0;
+  border-top: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.15);
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns: 1fr auto auto;
+  gap:14px;
+  align-items:center;
+}
+.footer-links{display:flex; gap:12px; flex-wrap:wrap}
+.footer-links a{color:var(--muted)}
+.footer-links a:hover{color:var(--text)}
+.footer-brand{font-weight:900}
+
+@media (max-width: 980px){
+  .hero-grid{grid-template-columns: 1fr}
+  h1{font-size:38px}
+  .grid-3{grid-template-columns: 1fr}
+  .grid-2{grid-template-columns: 1fr}
+  .footer-grid{grid-template-columns: 1fr; justify-items:start}
+}
+
+@media (max-width: 860px){
+  .burger{display:block}
+  .menu{
+    position:absolute;
+    right:18px;
+    top:70px;
+    display:none;
+    flex-direction:column;
+    align-items:stretch;
+    min-width: 220px;
+    padding:10px;
+    border-radius: 16px;
+    background: rgba(10,14,18,.92);
+    border:1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .menu.is-open{display:flex}
+  .menu-cta{justify-content:center}
+}
+
+├─ js/
+│  └─ main.js
+(() => {
+  const burger = document.querySelector("[data-burger]");
+  const menu = document.querySelector("[data-menu]");
+  const year = document.getElementById("year");
+
+  if (year) year.textContent = new Date().getFullYear();
+
+  if (!burger || !menu) return;
+
+  const closeMenu = () => {
+    menu.classList.remove("is-open");
+    burger.setAttribute("aria-expanded", "false");
+  };
+
+  burger.addEventListener("click", () => {
+    const isOpen = menu.classList.toggle("is-open");
+    burger.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!menu.classList.contains("is-open")) return;
+    const target = e.target;
+    if (target === burger || burger.contains(target)) return;
+    if (target === menu || menu.contains(target)) return;
+    closeMenu();
+  });
+
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeMenu();
+  });
+})();
+
+└─ assets/
+   └─ logo.png     (TON logo, exactement ce nom)
