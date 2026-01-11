@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Structura — Contact</title>
+  <meta name="description" content="Contact Structura — réservez un diagnostic gratuit." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Structura — Accueil">
+      <img src="assets/logo.png" class="logo" alt="Logo Structura" />
+      <div class="brand-text">
+        <span class="brand-name">Structura</span>
+        <span class="brand-tagline">Assistance administrative externalisée</span>
+      </div>
+    </a>
+
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-burger>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="menu" data-menu>
+      <a class="menu-link" href="index.html">Accueil</a>
+      <a class="menu-link" href="offres.html">Offres</a>
+      <a class="menu-link" href="process.html">Méthode</a>
+      <a class="menu-link" href="securite.html">Sécurité</a>
+      <a class="menu-link" href="contact.html">Contact</a>
+      <a class="menu-cta" href="#diagnostic">Diagnostic gratuit</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu" class="page">
+  <section class="section">
+    <div class="container">
+      <h1>Contact</h1>
+      <p class="lead">Expliquez votre besoin en 2 minutes, on vous rappelle rapidement.</p>
+
+      <div class="grid-2" id="diagnostic">
+        <article class="tile">
+          <h3>Coordonnées</h3>
+          <p class="muted small">Remplacez ces infos quand vous voulez.</p>
+          <ul class="list">
+            <li><strong>Email :</strong> contact@exemple.fr</li>
+            <li><strong>Téléphone :</strong> 06 00 00 00 00</li>
+            <li><strong>Zone :</strong> France (à distance)</li>
+          </ul>
+        </article>
+
+        <article class="tile">
+          <h3>Diagnostic gratuit (15 min)</h3>
+          <p class="muted">Formulaire en mode développement (pas d’envoi automatique).</p>
+
+          <form class="form" onsubmit="return false;">
+            <label>
+              Nom / entreprise
+              <input type="text" placeholder="Ex : Dupont — Atelier Dupont" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" placeholder="exemple@mail.com" />
+            </label>
+
+            <label>
+              Votre besoin (2 lignes)
+              <textarea rows="4" placeholder="Ce que vous voulez déléguer + urgence + volume…"></textarea>
+            </label>
+
+            <button class="btn primary" type="button"
+              onclick="alert('Formulaire en mode développement : on activera l’envoi plus tard 🙂');">
+              Envoyer
+            </button>
+          </form>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">Structura</div>
+      <div class="muted small">Assistance administrative externalisée</div>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Accueil</a>
+      <a href="offres.html">Offres</a>
+      <a href="process.html">Méthode</a>
+      <a href="securite.html">Sécurité</a>
+    </div>
+    <div class="muted small">© <span data-year></span> Structura</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
