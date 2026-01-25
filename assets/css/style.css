@@ -175,3 +175,49 @@ p{
 .footer a{
   text-decoration: underline;
 }
+/* =========================
+   CONTACT / FORMULAIRES
+========================= */
+
+.section {
+  padding: 80px 0;
+}
+
+.section.cta {
+  background: #f6f7fb;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(15,23,42,.08);
+  margin: 30px 0;
+}
+
+/* Form */
+.form {
+  display: grid;
+  gap: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.field input,
+.field textarea {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(15,23,42,.15);
+  font-size: 15px;
+ font-family: inherit;
+}
