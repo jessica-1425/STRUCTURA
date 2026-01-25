@@ -2,10 +2,79 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>STRUCTURA</title>
+  <title>STRUCTURA — Assistance administrative externalisée</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Structura — Assistance administrative externalisée. Organisation, facturation, conformité RGPD.">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
 </head>
 <body>
-  <h1>STRUCTURA</h1>
-  <p>Page d’accueil</p>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="brand">STRUCTURA</div>
+    <nav class="menu">
+      <a href="index.html" class="active">Entreprise</a>
+      <a href="prestations.html">Prestations</a>
+      <a href="securite.html">Sécurité</a>
+      <a href="formations.html">Formations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Votre administratif,<br>tenu au carré.</h1>
+      <p class="lead">
+        Devis, factures, relances, dossiers, organisation, conformité RGPD.  
+        Structura remet de l’ordre, simplifie et sécurise.  
+        Et surtout : on vous libère du temps.
+      </p>
+
+      <div class="actions">
+        <a href="contact.html" class="btn primary">Demander un rappel</a>
+        <a href="prestations.html" class="btn">Voir les prestations</a>
+      </div>
+
+      <ul class="badges">
+        <li>✅ Démarrage rapide</li>
+        <li>🔒 Données sécurisées</li>
+        <li>📁 Process clairs</li>
+        <li>🤝 À distance ou hybride</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Ce que vous gagnez</h2>
+
+    <h3>Temps retrouvé</h3>
+    <p>On absorbe l’administratif récurrent et les urgences, sans vous aspirer l’énergie.</p>
+
+    <h3>Organisation béton</h3>
+    <p>Arborescence, routines, tableaux de suivi, priorités : tout devient lisible.</p>
+
+    <h3>Sécurité & conformité</h3>
+    <p>RGPD renforcé, accès à distance encadré, procédures, traçabilité.</p>
+
+    <p><strong>STRUCTURA</strong> travaille avec les TPE/PME, indépendants et particuliers.  
+    Objectif : <strong>zéro charge mentale</strong> côté admin.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    © <span id="year"></span> STRUCTURA — Assistance administrative externalisée  
+    · <a href="mentions-legales.html">Mentions légales</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
