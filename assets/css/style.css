@@ -229,3 +229,33 @@ p{
   flex-wrap: wrap;
   margin: 18px 0 24px;
 }
+
+/* SECURITY BRANDING */
+.security-box{
+  background: linear-gradient(180deg, #ffffff, #f6f7fb);
+  border: 1px solid rgba(15,23,42,.12);
+  border-radius: 16px;
+  padding: 28px;
+  margin: 32px 0;
+  box-shadow: 0 12px 30px rgba(15,23,42,.08);
+}
+
+.security-box h3{
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.security-points{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.security-point{
+  background: #fff;
+  border: 1px solid rgba(15,23,42,.08);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+}
