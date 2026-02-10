@@ -58,13 +58,14 @@ a{
   text-decoration:none;
 }
 
-/* HEADER */
 .topbar{
-  background:#0f172a;
+  background: rgba(15,23,42,.92);
   color:#fff;
   position: sticky;
   top: 0;
   z-index: 10;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
 .nav{
